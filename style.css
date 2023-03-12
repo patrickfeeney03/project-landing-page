@@ -92,3 +92,46 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+/* CARDS */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 300px;
+    text-align: center;
+}
+
+.some-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1, .card2, .card3, .card4 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.pic1, .pic2, .pic3, .pic4 {
+    border: 3px solid #5088e9;
+    border-radius: 6px;    
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.text1, .text2, .text3, .text4 {
+    width: 104px;
+    flex-grow: 1;
+    color: #1F2937;
+}
+
+
