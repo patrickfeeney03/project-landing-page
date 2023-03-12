@@ -134,4 +134,33 @@ button {
     color: #1F2937;
 }
 
+/* QUOTE */
+.main-quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 50px 300px;
+
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.quote {
+    font-size: 34px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+.quote-by {
+    text-align: end;
+    font-weight: 700;
+    font-size: 24px;
+}
+
 
