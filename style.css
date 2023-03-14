@@ -99,7 +99,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 50px 300px;
+    padding: 50px 400px;
     text-align: center;
 }
 
@@ -140,7 +140,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 50px 300px;
+    padding: 50px 400px;
 
 }
 
@@ -162,5 +162,51 @@ button {
     font-weight: 700;
     font-size: 24px;
 }
+
+/* CALL TO ACTION */
+.main-call-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 65px 300px;
+    padding: 0px 150px;
+    border-radius: 8px;
+}
+
+.call-action {
+    display: flex;
+    flex-grow: 1;
+    padding: 40px 0px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.call-action-text-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-action-header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.call-action-text {
+    color: #E5E7EB;
+}
+
+.call-action-button-cont {
+    display: flex
+    
+}
+
+.call-action-button {
+    border: solid #F9FAF8 2px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
 
 
