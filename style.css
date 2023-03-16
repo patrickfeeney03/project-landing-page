@@ -88,9 +88,10 @@ a {
 }
 
 .header-text {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: lighter;
     color: #E5E7EB;
+    padding-right: 100px;
 
 }
 
