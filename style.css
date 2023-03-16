@@ -10,23 +10,20 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 10px 300px;
+    padding: 10px 350px;
 }
 
 .bottom-header-right {
-    flex-basis: 100px;
-    flex-grow: 1;
+    flex: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .image-deadlift {
-    width: 500px;
-    height: auto;
-    flex: 1;
-    border-radius: 8px;
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 .top-header {
@@ -47,10 +44,6 @@ body {
     filter: invert(100%);
     width: 50px;
     height: auto;
-}
-
-.header-links {
-    
 }
 
 ul {
@@ -76,9 +69,9 @@ a {
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
-    flex-grow: 1;
+    flex: auto;
     justify-content: space-around;
-
+    min-width: 500px;
 }
 
 .header-title {
@@ -100,6 +93,7 @@ button {
     background: #3882F6;
     font-weight: bold;
     border: 0;
+    font-size: 14px;
     border-radius: 4px;
     padding: 8px 20px;
 }
@@ -135,12 +129,12 @@ button {
     align-items: center;
 }
 
-.pic1, .pic2, .pic3, .pic4 {
+/* This doesnt seem to be the problem */
+.img1-container, .img2-container, .img3-container, .img4-container {
     display: flex;
-    border: 3px solid #5088e9;
+    border: 3px solid #3882F6;
     border-radius: 6px;    
     flex-basis: 100px;
-    flex-grow: 1;
 }
 
 .img1, .img2, .img3, .img4 {
@@ -148,8 +142,8 @@ button {
 }
 
 .text1, .text2, .text3, .text4 {
-    flex-grow: 1;
     color: #1F2937;
+    width: 200px;
 }
 
 /* QUOTE */
@@ -187,7 +181,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
-    margin: 65px 300px;
+    margin: 65px 350px;
     padding: 0px 150px;
     border-radius: 8px;
 }
